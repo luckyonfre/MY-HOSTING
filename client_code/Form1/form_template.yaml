@@ -16,7 +16,14 @@ components:
     properties: {content: acehost.net, font_size: 24}
     type: RichText
     layout_properties: {grid_position: 'EKYOAX,IDYJAI'}
+    components:
+    - name: button_1
+      properties: {text: + CREATE, bold: true, underline: false, font_size: 20}
+      type: Button
+      layout_properties: {}
+      event_bindings: {click: button_1_click}
   - name: image_1
-    properties: {source: _/theme/rgwth.webp}
+    properties: {source: _/theme/acehost.png, spacing_above: large, spacing_below: large,
+      visible: true}
     type: Image
-    layout_properties: {grid_position: 'XOXIRB,WPYATZ'}
+    layout_properties: {grid_position: 'EHCZWR,GSTXWX'}
